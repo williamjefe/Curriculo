@@ -1,0 +1,36 @@
+.imagemicone{
+   width: 30px;
+   height: 30px;
+   position: absolute;
+}
+.picone{
+    margin-left: 35px;
+    position: relative;
+}
+.lados{
+    display: flex;
+}
+.lado{
+    width: 65%;
+    background-color: #1c1c1c;
+    color: white;
+    padding: 20px;
+}
+.ladod{
+    width: 65%;
+  background-color: white;
+  color: black;
+  padding: 20px;
+}
+h2{
+    border-bottom: 1px solid#000;
+}
+.foto{
+    position: relative;
+  top: -150px;
+    border-radius: 50%;
+    object-fit: cover; 
+    width: 200px;
+    height: 200px;
+    transform: translate(170px,170px);
+}
